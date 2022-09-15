@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import Navbar from "../components/Navbar";
 
@@ -14,8 +15,9 @@ export default function contact() {
       {/* <!-- Content --> */}
       <div className="d-flex mx-auto m-3" style={{ maxWidth: "600px" }}>
         <div className="d-flex m-2">
-          <img
+          <Image
             src="/portrait.jpg"
+            alt="portrait.jpg"
             width="250px"
             height="250px"
             style={{ objectFit: "cover" }}
@@ -36,7 +38,7 @@ export default function contact() {
             <a
               href="https://www.facebook.com/charttrakarn.choosiri"
               target="_blank"
-              rel="nonreferrer"
+              rel="noreferrer"
               style={{ textDecoration: "underline", color: "blue" }}
             >
               https://www.facebook.com/charttrakarn.choosiri
