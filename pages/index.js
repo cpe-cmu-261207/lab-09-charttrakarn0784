@@ -12,8 +12,8 @@ export default function Home() {
           <Image
             src="/gupone.png"
             alt="gupong.png"
-            width="256px"
-            height="256px"
+            width="800px"
+            height="800px"
             style={{ objectFit: "cover" }}
             className="rounded-circle"
           />
